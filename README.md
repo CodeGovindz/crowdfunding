@@ -144,8 +144,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Citations:
 [1](#https://github.com/spandan114/Crowdfunding-DAPP)
-[2] https://github.com/thirdweb-dev/examples
-[3] https://github.com/JustinBenito/crowdfunding-smartcontract
+[2](#https://github.com/thirdweb-dev/examples)
+[3](#https://github.com/JustinBenito/crowdfunding-smartcontract)
 [4] https://thirdweb.com/templates/next-starter
 [5] https://github.com/thirdweb-dev/examples/blob/main/README.md
 [6] https://www.hatica.io/blog/best-practices-for-github-readme/
