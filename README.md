@@ -22,7 +22,7 @@ This Solidity smart contract facilitates decentralized crowdfunding by allowing 
   - Description
   - Funding goal (in wei)
   - Duration (in days)
-  - Refund option (enabled/disabled) ([Style Guide](https://ethereum.org/en/contributing/style-guide/?utm_source=chatgpt.com))
+  - Refund option (enabled/disabled)
 
 - **Secure Contributions**: Contributors can fund campaigns directly with Ether. Excess contributions are automatically refunded.
 
