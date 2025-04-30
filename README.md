@@ -143,7 +143,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Open-source contributors creating templates and examples for blockchain development[1][2][3][8]
 
 Citations:
-[1] (https://github.com/spandan114/Crowdfunding-DAPP)
+[1](#https://github.com/spandan114/Crowdfunding-DAPP)
 [2] https://github.com/thirdweb-dev/examples
 [3] https://github.com/JustinBenito/crowdfunding-smartcontract
 [4] https://thirdweb.com/templates/next-starter
