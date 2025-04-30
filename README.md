@@ -11,7 +11,7 @@ This Solidity smart contract facilitates decentralized crowdfunding by allowing 
 - **Create** fundraising campaigns with specific goals and deadlines.
 - **Contribute** Ether directly to campaigns.
 - **Withdraw** funds upon successful campaign completion.
-- **Claim refunds** if campaigns fail to meet their goals (when refunds are enabled). ([Nethermind | Your Partner in Blockchain](https://www.nethermind.io/blog/best-practices-for-writing-secure-smart-contract-code?utm_source=chatgpt.com))
+- **Claim refunds** if campaigns fail to meet their goals (when refunds are enabled).
 
 ---
 
