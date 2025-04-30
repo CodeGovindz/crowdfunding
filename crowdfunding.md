@@ -1,11 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# can u hide citations inside numbers
-
-Certainly! Here's the README with citations hidden inside numbered brackets, which is a common style for technical documentation:
-
----
-
 # Decentralized Crowdfunding Platform
 
 A blockchain-based crowdfunding platform that allows users to create campaigns, contribute funds, and manage fundraising transparently and securely. Built using thirdweb, Solidity, and blockchain technology, this decentralized application (DApp) eliminates intermediaries and ensures trust through smart contracts.
@@ -159,8 +151,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - thirdweb for providing powerful Web3 development tools
 - The Ethereum community for continuous innovation in decentralized applications
 - Open-source contributors creating templates and examples for blockchain development
-
----
-
-If you want, I can also provide a references section with URLs or sources for these numbers. Would you like me to do that?
-
