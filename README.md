@@ -4,6 +4,13 @@
 [![Stars](https://img.shields.io/github/stars/CodeGovindz/crowdfunding)](https://github.com/CodeGovindz/crowdfunding/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/CodeGovindz/crowdfunding)](https://github.com/CodeGovindz/crowdfunding/commits/main)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/CodeGovindz/crowdfunding)](https://github.com/CodeGovindz/crowdfunding/pulls)
+![Solidity](https://img.shields.io/badge/Solidity-363636?logo=solidity&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?logo=ethereum&logoColor=white)
+![Hardhat](https://img.shields.io/badge/Hardhat-FFCF00?logo=ethereum&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![MetaMask](https://img.shields.io/badge/MetaMask-F6851B?logo=metamask&logoColor=white)
 
 # 📢 Decentralized Crowdfunding Smart Contract
 
