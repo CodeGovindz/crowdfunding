@@ -82,7 +82,7 @@ This Solidity smart contract facilitates decentralized crowdfunding by allowing 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/crowdfunding-dapp.git
+   git clone https://github.com/CodeGovindz/crowdfunding.git
    cd crowdfunding-dapp
    ```
 
