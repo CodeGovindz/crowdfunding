@@ -1,3 +1,10 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Issues](https://img.shields.io/github/issues/CodeGovindz/crowdfunding)](https://github.com/CodeGovindz/crowdfunding/issues)
+[![Forks](https://img.shields.io/github/forks/CodeGovindz/crowdfunding)](https://github.com/CodeGovindz/crowdfunding/network/members)
+[![Stars](https://img.shields.io/github/stars/CodeGovindz/crowdfunding)](https://github.com/CodeGovindz/crowdfunding/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/CodeGovindz/crowdfunding)](https://github.com/CodeGovindz/crowdfunding/commits/main)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/CodeGovindz/crowdfunding)](https://github.com/CodeGovindz/crowdfunding/pulls)
+
 # 📢 Decentralized Crowdfunding Smart Contract
 
 A secure and transparent Ethereum-based smart contract enabling users to create and manage fundraising campaigns without intermediaries.
