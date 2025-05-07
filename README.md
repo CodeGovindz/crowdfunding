@@ -1,14 +1,5 @@
 # 📢 Decentralized Crowdfunding Smart Contract
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Issues](https://img.shields.io/github/issues/CodeGovindz/crowdfunding)](https://github.com/CodeGovindz/crowdfunding/issues)
-[![Forks](https://img.shields.io/github/forks/CodeGovindz/crowdfunding)](https://github.com/CodeGovindz/crowdfunding/network/members)
-[![Stars](https://img.shields.io/github/stars/CodeGovindz/crowdfunding)](https://github.com/CodeGovindz/crowdfunding/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/CodeGovindz/crowdfunding)](https://github.com/CodeGovindz/crowdfunding/commits/main)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/CodeGovindz/crowdfunding)](https://github.com/CodeGovindz/crowdfunding/pulls)
-
-# 📢 Decentralized Crowdfunding Smart Contract
-
 A secure and transparent Ethereum-based smart contract enabling users to create and manage fundraising campaigns without intermediaries.
 
 ---
@@ -65,16 +56,11 @@ This Solidity smart contract facilitates decentralized crowdfunding by allowing 
 
 ### ⚙️ Core Functions
 
-- `createCampaign(string _name, string _description, uint256 _goal, uint256 _durationInDays, bool _refundsEnabled)`: Creates a new campaign. ([Security checklists for Ethereum smart contract development: patterns and best practices](https://arxiv.org/abs/2008.04761?utm_source=chatgpt.com))
-
+- `createCampaign(string _name, string _description, uint256 _goal, uint256 _durationInDays, bool _refundsEnabled)`: Creates a new campaign.
 - `fundCampaign(uint256 _campaignId) payable`: Allows users to contribute Ether to a campaign. Excess funds are refunded.
-
 - `withdrawFunds(uint256 _campaignId)`: Enables campaign owners to withdraw funds after a successful campaign.
-
 - `claimRefund(uint256 _campaignId)`: Allows contributors to claim refunds from unsuccessful campaigns with refunds enabled.
-
-- `getCampaignDetails(uint256 _campaignId)`: Returns details of a specific campaign. ([Best Practices for Smart Contract Development – Yos Riady · Software Craftsman](https://yos.io/2019/11/10/smart-contract-development-best-practices/?utm_source=chatgpt.com))
-
+- `getCampaignDetails(uint256 _campaignId)`: Returns details of a specific campaign.
 - `getUserCampaigns(address _user)`: Retrieves all campaign IDs created by a specific user.
 
 ---
@@ -95,7 +81,6 @@ This Solidity smart contract facilitates decentralized crowdfunding by allowing 
    cd crowdfunding-dapp
    ```
 
-
 2. **Install Dependencies**:
    ```bash
    npm install
@@ -103,24 +88,52 @@ This Solidity smart contract facilitates decentralized crowdfunding by allowing 
    yarn install
    ```
 
-
 3. **Compile the Contract**:
    ```bash
    npx hardhat compile
    ```
-
 
 4. **Deploy to a Local Network**:
    ```bash
    npx hardhat run scripts/deploy.js --network localhost
    ```
 
-
 5. **Run Tests**:
    ```bash
    npx hardhat test
    ```
 
+---
+
+## 🌐 Deploying on Thirdweb
+
+You can easily deploy this smart contract using the [Thirdweb Dashboard](https://thirdweb.com/), a powerful no-code interface for deploying and managing smart contracts.
+
+### 🚀 Steps to Deploy on Thirdweb
+
+1. **Visit the Thirdweb Dashboard**:  
+   [https://thirdweb.com/dashboard](https://thirdweb.com/dashboard)
+
+2. **Connect Your Wallet**:  
+   Use MetaMask or any supported wallet to connect.
+
+3. **Create a New Contract**:
+   - Click on **"Deploy Contract"**
+   - Choose **"Deploy your own" → "Solidity"**
+   - Paste your contract code into the Solidity editor.
+
+4. **Configure Contract Details**:
+   - Contract Name: `Crowdfunding`
+   - Compiler Version: `0.8.x` (match the pragma version in your contract)
+   - Select environment: `Mainnet`, `Goerli`, `Sepolia`, or any supported testnet.
+
+5. **Deploy the Contract**:
+   - Click **"Deploy"** and approve the transaction in your wallet.
+   - After deployment, you’ll receive a **contract address** and **dashboard interface** for interacting with the contract.
+
+6. **Interact with the Contract**:
+   - Use the Thirdweb dashboard UI to call contract functions like `createCampaign`, `fundCampaign`, `withdrawFunds`, etc., without writing frontend code.
+   - Or integrate with their [JavaScript SDK](https://portal.thirdweb.com/) for building dApps.
 
 ---
 
@@ -134,7 +147,7 @@ This Solidity smart contract facilitates decentralized crowdfunding by allowing 
    - Description
    - Funding goal (in wei)
    - Duration (in days)
-   - Refund option (true/false) ([Documentation - Smart Contract Security Field Guide](https://scsfg.io/developers/documentation/?utm_source=chatgpt.com))
+   - Refund option (true/false)
 
 ### 💰 Contributing to a Campaign
 
@@ -156,45 +169,6 @@ This Solidity smart contract facilitates decentralized crowdfunding by allowing 
 
 ---
 
-
-🌐 Deploying on Thirdweb
-You can easily deploy this smart contract using the Thirdweb Dashboard, a powerful no-code interface for deploying and managing smart contracts.
-
-🚀 Steps to Deploy on Thirdweb
-Visit the Thirdweb Dashboard:
-https://thirdweb.com/dashboard
-
-Connect Your Wallet:
-Use MetaMask or any supported wallet to connect.
-
-Create a New Contract:
-
-Click on "Deploy Contract"
-
-Choose "Deploy your own" → "Solidity"
-
-Paste your contract code into the Solidity editor.
-
-Configure Contract Details:
-
-Contract Name: Crowdfunding
-
-Compiler Version: 0.8.x (match the pragma version in your contract)
-
-Select environment: Mainnet, Goerli, Sepolia, or any supported testnet.
-
-Deploy the Contract:
-
-Click "Deploy" and approve the transaction in your wallet.
-
-After deployment, you’ll receive a contract address and dashboard interface for interacting with the contract.
-
-Interact with the Contract:
-
-Use the Thirdweb dashboard UI to call contract functions like createCampaign, fundCampaign, withdrawFunds, etc., without writing frontend code.
-
-Or integrate with their JavaScript SDK for building dApps.
-
 ## 🤝 Contributing
 
 We welcome contributions! To contribute:
@@ -205,18 +179,15 @@ We welcome contributions! To contribute:
    git checkout -b feature/YourFeatureName
    ```
 
-
 3. Commit your changes:
    ```bash
    git commit -m "Add YourFeatureName"
    ```
 
-
 4. Push to the branch:
    ```bash
    git push origin feature/YourFeatureName
    ```
-
 
 5. Open a Pull Request detailing your changes.
 
@@ -225,5 +196,3 @@ We welcome contributions! To contribute:
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
