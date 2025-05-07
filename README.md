@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://mit-license.org/)
 [![Issues](https://img.shields.io/github/issues/CodeGovindz/crowdfunding)](https://github.com/CodeGovindz/crowdfunding/issues)
 [![Forks](https://img.shields.io/github/forks/CodeGovindz/crowdfunding)](https://github.com/CodeGovindz/crowdfunding/network/members)
 [![Stars](https://img.shields.io/github/stars/CodeGovindz/crowdfunding)](https://github.com/CodeGovindz/crowdfunding/stargazers)
